@@ -62,7 +62,7 @@ steps:
   displayName: 'Publish NuGet Package'
   inputs:
     command: push
-    publishVstsFeed: 'Space Game - web - Dependencies/SpaceGame.Artifacts.Infrastructure'
+    publishVstsFeed: 'SpaceGame.Artifacts.Infrastructure'
     allowPackageConflicts: true
   condition: succeeded()
 
