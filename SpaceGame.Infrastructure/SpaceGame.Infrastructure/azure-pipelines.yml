@@ -59,7 +59,7 @@ steps:
     patchVersion: '0'
 
 - task: NuGetCommand@2
-  displayName: 'Publish NuGet package'
+  displayName: 'Publish NuGet Package'
   inputs:
     command: push
     publishVstsFeed: 'Space Game - web - Dependencies/SpaceGame.Artifacts.Infrastructure'
