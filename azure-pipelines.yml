@@ -43,7 +43,7 @@ steps:
     publishTestResults: true
     projects: '**/*.Tests.csproj'
 
-- template: template/build.yml
+- template: Template/build.yml
   parameters:
     buildConfiguration: 'Release'
 
